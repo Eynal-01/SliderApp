@@ -35,6 +35,7 @@ var mouseX2 = 0;
 document.onmousedown = (e) => {
     mouseX1 = e.clientX;
 };
+
 var myimage = document.getElementById("imgs32");
 myimage.style.transitionProperty = "margin-left";
 myimage.style.transitionDuration = "2s";
