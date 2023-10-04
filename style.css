@@ -20,7 +20,7 @@ img {
 .container {
     z-index: -10;
     /* box-shadow: 0 5px 90px rgb(255, 0, 0); */
-    width: 60%;
+    width: 55%;
     margin: auto;
     height:570px;
     text-align: center;
@@ -31,17 +31,17 @@ img {
 }
 
 #miniGallery {
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
     position: relative;
     display: flex;
     overflow: hidden;
-    margin-top: -10%
+    margin-top: -5%
 }
 
 #miniGallery>img {
-    width: 12%;
+    width: 14%;
     height: 200px;
     border-radius: 50%;
     margin-right: 20px;
